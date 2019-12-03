@@ -1,18 +1,18 @@
-const collection = (str) => {
+const collection2 = (str) => {
 
 	if(typeof str === 'string') {
 
 		let arr = str.split('');
-		let collection = '';	
+		let collection2 = '';	
 		arr.forEach(function (item, index) {
-			index % 2 == 0 && (collection = collection + item);
+			index % 2 == 0 && (collection2 = collection2 + item);
 		});
 	
-		console.log(collection);
+		console.log(collection2);
 	} else {
 		console.log('koparka');
 	}
 }
 
-collection('superbohater');
-collection();
+collection2('superbohater');
+collection2();
